@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D79B5D28A4E20E5C0C4748B /* Pods_take_video.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8960762C4A493F243B492F99 /* Pods_take_video.framework */; };
+		9F13FF22CB2C2431AE18C7CA /* Pods_take_video_take_videoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE58F7327E53013D511CFE2 /* Pods_take_video_take_videoUITests.framework */; };
+		B450132CFD34BE8CBF150BE8 /* Pods_take_videoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CF5AA857EBE78F1AB80BB3 /* Pods_take_videoTests.framework */; };
+		C61E6F242B9AE45900769B35 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E6F232B9AE45900769B35 /* CameraViewController.swift */; };
 		C697A7BE2B9AB7A20046F135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A7BD2B9AB7A20046F135 /* AppDelegate.swift */; };
 		C697A7C02B9AB7A20046F135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A7BF2B9AB7A20046F135 /* SceneDelegate.swift */; };
 		C697A7C22B9AB7A20046F135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A7C12B9AB7A20046F135 /* ViewController.swift */; };
-		C697A7C52B9AB7A20046F135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C697A7C32B9AB7A20046F135 /* Main.storyboard */; };
+		C697A7C52B9AB7A20046F135 /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C697A7C32B9AB7A20046F135 /* ViewController.storyboard */; };
 		C697A7C72B9AB7A30046F135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C697A7C62B9AB7A30046F135 /* Assets.xcassets */; };
 		C697A7CA2B9AB7A30046F135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C697A7C82B9AB7A30046F135 /* LaunchScreen.storyboard */; };
 		C697A7D52B9AB7A30046F135 /* take_videoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A7D42B9AB7A30046F135 /* take_videoTests.swift */; };
 		C697A7DF2B9AB7A30046F135 /* take_videoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A7DE2B9AB7A30046F135 /* take_videoUITests.swift */; };
 		C697A7E12B9AB7A30046F135 /* take_videoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A7E02B9AB7A30046F135 /* take_videoUITestsLaunchTests.swift */; };
+		C6CC1EC52B9AF8B4000CE36A /* PreviewVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CC1EC42B9AF8B4000CE36A /* PreviewVideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03BA1EED4BCA90DBE66EBE90 /* Pods-take_video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-take_video.release.xcconfig"; path = "Target Support Files/Pods-take_video/Pods-take_video.release.xcconfig"; sourceTree = "<group>"; };
+		186D8E59DDCF79011579EB4E /* Pods-take_video-take_videoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-take_video-take_videoUITests.debug.xcconfig"; path = "Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20CF5AA857EBE78F1AB80BB3 /* Pods_take_videoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_take_videoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2B324405307E16F8AA5399 /* Pods-take_videoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-take_videoTests.release.xcconfig"; path = "Target Support Files/Pods-take_videoTests/Pods-take_videoTests.release.xcconfig"; sourceTree = "<group>"; };
+		65552A15DD686BAE76F51136 /* Pods-take_video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-take_video.debug.xcconfig"; path = "Target Support Files/Pods-take_video/Pods-take_video.debug.xcconfig"; sourceTree = "<group>"; };
+		8960762C4A493F243B492F99 /* Pods_take_video.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_take_video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CB9046B9A9E1A48061AC22 /* Pods-take_videoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-take_videoTests.debug.xcconfig"; path = "Target Support Files/Pods-take_videoTests/Pods-take_videoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CE58F7327E53013D511CFE2 /* Pods_take_video_take_videoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_take_video_take_videoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61E6F232B9AE45900769B35 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		C697A7BA2B9AB7A20046F135 /* take_video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = take_video.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C697A7BD2B9AB7A20046F135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C697A7BF2B9AB7A20046F135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C697A7C12B9AB7A20046F135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C697A7C42B9AB7A20046F135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C697A7C42B9AB7A20046F135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ViewController.storyboard; sourceTree = "<group>"; };
 		C697A7C62B9AB7A30046F135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C697A7C92B9AB7A30046F135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C697A7CB2B9AB7A30046F135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		C697A7DA2B9AB7A30046F135 /* take_videoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = take_videoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C697A7DE2B9AB7A30046F135 /* take_videoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = take_videoUITests.swift; sourceTree = "<group>"; };
 		C697A7E02B9AB7A30046F135 /* take_videoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = take_videoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6CC1EC42B9AF8B4000CE36A /* PreviewVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVideoViewController.swift; sourceTree = "<group>"; };
+		D1EA0CAE830654F13EFB2075 /* Pods-take_video-take_videoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-take_video-take_videoUITests.release.xcconfig"; path = "Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D79B5D28A4E20E5C0C4748B /* Pods_take_video.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B450132CFD34BE8CBF150BE8 /* Pods_take_videoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F13FF22CB2C2431AE18C7CA /* Pods_take_video_take_videoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F12199310BB00BA6CF33FF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65552A15DD686BAE76F51136 /* Pods-take_video.debug.xcconfig */,
+				03BA1EED4BCA90DBE66EBE90 /* Pods-take_video.release.xcconfig */,
+				186D8E59DDCF79011579EB4E /* Pods-take_video-take_videoUITests.debug.xcconfig */,
+				D1EA0CAE830654F13EFB2075 /* Pods-take_video-take_videoUITests.release.xcconfig */,
+				89CB9046B9A9E1A48061AC22 /* Pods-take_videoTests.debug.xcconfig */,
+				4A2B324405307E16F8AA5399 /* Pods-take_videoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C697A7B12B9AB7A20046F135 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +115,8 @@
 				C697A7D32B9AB7A30046F135 /* take_videoTests */,
 				C697A7DD2B9AB7A30046F135 /* take_videoUITests */,
 				C697A7BB2B9AB7A20046F135 /* Products */,
+				5F12199310BB00BA6CF33FF9 /* Pods */,
+				D369C9600505474D38297F92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +136,12 @@
 				C697A7BD2B9AB7A20046F135 /* AppDelegate.swift */,
 				C697A7BF2B9AB7A20046F135 /* SceneDelegate.swift */,
 				C697A7C12B9AB7A20046F135 /* ViewController.swift */,
-				C697A7C32B9AB7A20046F135 /* Main.storyboard */,
+				C697A7C32B9AB7A20046F135 /* ViewController.storyboard */,
 				C697A7C62B9AB7A30046F135 /* Assets.xcassets */,
 				C697A7C82B9AB7A30046F135 /* LaunchScreen.storyboard */,
 				C697A7CB2B9AB7A30046F135 /* Info.plist */,
+				C61E6F232B9AE45900769B35 /* CameraViewController.swift */,
+				C6CC1EC42B9AF8B4000CE36A /* PreviewVideoViewController.swift */,
 			);
 			path = take_video;
 			sourceTree = "<group>";
@@ -127,6 +163,16 @@
 			path = take_videoUITests;
 			sourceTree = "<group>";
 		};
+		D369C9600505474D38297F92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8960762C4A493F243B492F99 /* Pods_take_video.framework */,
+				8CE58F7327E53013D511CFE2 /* Pods_take_video_take_videoUITests.framework */,
+				20CF5AA857EBE78F1AB80BB3 /* Pods_take_videoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C697A7E42B9AB7A30046F135 /* Build configuration list for PBXNativeTarget "take_video" */;
 			buildPhases = (
+				320132C049C1BBC727932E6D /* [CP] Check Pods Manifest.lock */,
 				C697A7B62B9AB7A20046F135 /* Sources */,
 				C697A7B72B9AB7A20046F135 /* Frameworks */,
 				C697A7B82B9AB7A20046F135 /* Resources */,
+				37E7983D6D1FFE46A6EFFC87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C697A7E72B9AB7A30046F135 /* Build configuration list for PBXNativeTarget "take_videoTests" */;
 			buildPhases = (
+				5E284F491462BE7CDE89B2EF /* [CP] Check Pods Manifest.lock */,
 				C697A7CC2B9AB7A30046F135 /* Sources */,
 				C697A7CD2B9AB7A30046F135 /* Frameworks */,
 				C697A7CE2B9AB7A30046F135 /* Resources */,
@@ -169,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C697A7EA2B9AB7A30046F135 /* Build configuration list for PBXNativeTarget "take_videoUITests" */;
 			buildPhases = (
+				287127D62167052F1305C8D4 /* [CP] Check Pods Manifest.lock */,
 				C697A7D62B9AB7A30046F135 /* Sources */,
 				C697A7D72B9AB7A30046F135 /* Frameworks */,
 				C697A7D82B9AB7A30046F135 /* Resources */,
+				5F3729CFEF4472DE22B7F474 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +284,7 @@
 			files = (
 				C697A7CA2B9AB7A30046F135 /* LaunchScreen.storyboard in Resources */,
 				C697A7C72B9AB7A30046F135 /* Assets.xcassets in Resources */,
-				C697A7C52B9AB7A20046F135 /* Main.storyboard in Resources */,
+				C697A7C52B9AB7A20046F135 /* ViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +304,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		287127D62167052F1305C8D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-take_video-take_videoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		320132C049C1BBC727932E6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-take_video-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37E7983D6D1FFE46A6EFFC87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-take_video/Pods-take_video-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-take_video/Pods-take_video-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-take_video/Pods-take_video-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E284F491462BE7CDE89B2EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-take_videoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3729CFEF4472DE22B7F474 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C697A7B62B9AB7A20046F135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C697A7C22B9AB7A20046F135 /* ViewController.swift in Sources */,
+				C61E6F242B9AE45900769B35 /* CameraViewController.swift in Sources */,
+				C6CC1EC52B9AF8B4000CE36A /* PreviewVideoViewController.swift in Sources */,
 				C697A7BE2B9AB7A20046F135 /* AppDelegate.swift in Sources */,
 				C697A7C02B9AB7A20046F135 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,12 +453,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C697A7C32B9AB7A20046F135 /* Main.storyboard */ = {
+		C697A7C32B9AB7A20046F135 /* ViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C697A7C42B9AB7A20046F135 /* Base */,
 			);
-			name = Main.storyboard;
+			name = ViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		C697A7C82B9AB7A30046F135 /* LaunchScreen.storyboard */ = {
@@ -437,12 +593,14 @@
 		};
 		C697A7E52B9AB7A30046F135 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65552A15DD686BAE76F51136 /* Pods-take_video.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KZ78P3UPMD;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = take_video/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,6 +608,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +624,14 @@
 		};
 		C697A7E62B9AB7A30046F135 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BA1EED4BCA90DBE66EBE90 /* Pods-take_video.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KZ78P3UPMD;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = take_video/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,6 +639,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +655,7 @@
 		};
 		C697A7E82B9AB7A30046F135 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89CB9046B9A9E1A48061AC22 /* Pods-take_videoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +676,7 @@
 		};
 		C697A7E92B9AB7A30046F135 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A2B324405307E16F8AA5399 /* Pods-take_videoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +697,7 @@
 		};
 		C697A7EB2B9AB7A30046F135 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186D8E59DDCF79011579EB4E /* Pods-take_video-take_videoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +716,7 @@
 		};
 		C697A7EC2B9AB7A30046F135 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1EA0CAE830654F13EFB2075 /* Pods-take_video-take_videoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

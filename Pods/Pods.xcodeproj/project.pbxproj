@@ -1,0 +1,1435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A2ACE6E5F621A0EE2259A8D4435229 /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37530459869BFA477BF14B939497D7 /* SwiftyCamViewController.swift */; };
+		0A5C290276F7453D9471E25BEA655842 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549350F1E13FAE743B8266E5B6186661 /* ConstraintLayoutGuide.swift */; };
+		0AD7A0DA8FF5880E3D8599062129AB12 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E39109D2139900219036C1EEE75C07 /* ConstraintMakerEditable.swift */; };
+		0D665B6767B345D8C70D7E029A2A48D8 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA22FD84F8246D30F56DA73CFEC069 /* ConstraintViewDSL.swift */; };
+		0DA9A9D2F8960818017E26DA480FA143 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F02FB6CE15962EDCDF3E1B82574C8 /* ConstraintLayoutGuideDSL.swift */; };
+		1016AE0AF292F3099055A0752D54DB0A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = CD1DC6DECEF00786888E2DCEA0C78678 /* PrivacyInfo.xcprivacy */; };
+		132A0A94A2163F14EF37A3675A5E203D /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E59D684B55004498AC488A25412E81 /* SwiftyCamViewControllerDelegate.swift */; };
+		13CC0CFB1C56F23BBC872801F983C1A3 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC94F85D10268330C5D9D6B896E162B /* ConstraintLayoutSupport.swift */; };
+		15F68E09ADCDB843B938C490059485BD /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EC04E1DB7ED0F67DF98D39A5FF7769 /* ConstraintMakerRelatable+Extensions.swift */; };
+		1617737C00264612593DEDA3148C662B /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2E2B65B907B6D4E717311E7DAEE51 /* PreviewView.swift */; };
+		1E7E37C51375285EA22294CD2ADB3159 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53932D23B582D5FD19250519B74E168B /* Debugging.swift */; };
+		31D0875D7820276B626CDBD2C6ED6EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3DAFEDCDC5094007E329D71FE84FF704 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ECF4B1A9E852FE35E1EC15C3C796A6 /* SnapKit-dummy.m */; };
+		44587312CDF706B6956E84736AA488AE /* Pods-take_video-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6849AE7A394FD50B697A01C73ED4E38 /* Pods-take_video-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E4E24710A4C5A77BE6594A10DFE773 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DD4A5EBBF2952B4BEB22C9851F9AB /* ConstraintMultiplierTarget.swift */; };
+		56CD198002D3D45274F6719725B983CF /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E014DA204A2EDD4950A62FE6D4B6A46 /* ConstraintOffsetTarget.swift */; };
+		6431218578A566C5EBF5FD166F164059 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CCA68956A55741CE4DB94297110D1E /* ConstraintMakerExtendable.swift */; };
+		66D97D294305D14E0CCB83C66734A2C8 /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CF69D0EA1198530B8773B5A2B4E937 /* SwiftyCamButton.swift */; };
+		6D389E4D5F97798BE1AEEB8C317852D7 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D256C77D2919618B6191FA083CFA26CF /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E2884B29CD49EE91C48C725105F295A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C505D1B02E004BFDC95C195F2CFD55F /* LayoutConstraint.swift */; };
+		7052944C657F270E47777446D0E10E1C /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5D4FFB9D2785EF7976063FC99CB8E7 /* ConstraintInsetTarget.swift */; };
+		73F8AC99A58E5837924C056E89543B97 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7923DE95182EFE6D868678A1491BEFD0 /* Typealiases.swift */; };
+		77D782DE125D322922466676E2FFA289 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20A35443EB963106233EAC286125A8 /* ConstraintPriorityTarget.swift */; };
+		7E8A0F6B86BFB8941302013C3A0E2706 /* Pods-take_videoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E356344384717E1F6085FBA761A3ABEB /* Pods-take_videoTests-dummy.m */; };
+		8640829049AE9907FE93825E5510C33D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA52B0610D36F51E93012F9A6E61FE /* ConstraintMaker.swift */; };
+		87996D11DC92EE19EAF9305DAEA4ACF2 /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02AAF6F48B52B090E788BC93B582D65 /* ConstraintMakerPrioritizable.swift */; };
+		8868BA37E3CE7C58D26123806D543F3F /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A0079A42C15F9024BC5070D484EA7E /* ConstraintView.swift */; };
+		891D1BF14C8881C74262EE9DBE5D67A9 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ACF05482533460F6032A292CAC055 /* UILayoutSupport+Extensions.swift */; };
+		8B993DBC237BE38AA3A3E413AA0D065E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8EA1876E38362796CBC1121D9D693252 /* SwiftyCam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B99FD3BC477276DF32BAD1DB6BA362F /* SwiftyCam-dummy.m */; };
+		906EF891E58A035281766993F82373E3 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70EFB71AFE91E530E4BBD82BBD2FC8B /* ConstraintItem.swift */; };
+		938CFF5F6DE6E7E8CE94373E51F3E07A /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629F7153740013E16AB3CCAC64543B15 /* ConstraintLayoutGuide+Extensions.swift */; };
+		950B809760A8CE4375DCE1016FB9859F /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1713149D807D8F3016D4616B9693F /* ConstraintMakerRelatable.swift */; };
+		9779D52AD8CDA703D6EEE1C6D38E019F /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A68A4CA597B01A42BF1BBE00AC2632 /* ConstraintAttributes.swift */; };
+		A0371DF7D93D9B86BD50474D4B9294FD /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629947BA716D51503C9BC31172C4F940 /* ConstraintInsets.swift */; };
+		A051999781E1280746F7743BDEEA6C49 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF783534353CA0B78D6314DC2BAA0244 /* ConstraintDescription.swift */; };
+		A14F51AE43C89733C7810D970BD3E6F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A35877DE0C3D6B4CF2A10E666EF5F490 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9641FC9BCCE14CD0F84EC4E22634725E /* LayoutConstraintItem.swift */; };
+		B133BB9C9B03481C7F1D221F35A617F2 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B512C23836595A95D57AE740E935C10 /* Constraint.swift */; };
+		B3F75D115D5150C258F5E68404751010 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB6ACADC916953FD2880055E7C414E /* ConstraintConstantTarget.swift */; };
+		B4F9C9EC1B3F1689AE56BB719AE5439C /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48580EF6BD2633F5C8F606FF277110B5 /* ConstraintDirectionalInsetTarget.swift */; };
+		BE355F69F84788D334FDAC7D1CD9B8C4 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372BD455E61FAADB42688A8387BD7DFC /* ConstraintDirectionalInsets.swift */; };
+		BF567AEFDD52DC43AC75122734D571E2 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB52A87023AC66458BCD55571CB1557 /* ConstraintMakerFinalizable.swift */; };
+		C04DBE6AE13FC5CFD01D363A351EF76A /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384460650D636F64BDE89CBF2B3067E /* ConstraintView+Extensions.swift */; };
+		C7E343559158D03F717C616F79FAA006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C8CF292B7EA3A2BF447A29BD5E9D09DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CCFC5C12EDCAB0FF51A4A7E2EAC7EC7E /* Pods-take_videoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42CDD779A41628FB3D889738A7FF672E /* Pods-take_videoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D091D9EA20CEB92609BF1E622E8CA348 /* SnapKit-SnapKit_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */; };
+		D7486F29A0281BF3895691642F0B4253 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A995083BF9BFEF16096EB4AD3DB5D9 /* Orientation.swift */; };
+		D92AEF78B87F929D88D5C876ABBAD79A /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EFA8E0EBD157DE46D209A5564506FB /* ConstraintLayoutSupportDSL.swift */; };
+		DD782A484E231822DFEC84BDB68BB2C5 /* SwiftyCam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F88474154667165B2419545065EC3EF /* SwiftyCam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E94B31DCAF75D93405D3BAE188604EB2 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9400B5C60C6A15E71E49E0DB30098F /* ConstraintConfig.swift */; };
+		EC53C319467EC2E0F3541D57899F7A38 /* Pods-take_video-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3075B466B6EF18F12CBE3969967C6C2C /* Pods-take_video-dummy.m */; };
+		EFC90283F9AB43BB6FF377812BD3673F /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD513D2B87310E0BDD5C016B7C0FFB57 /* ConstraintPriority.swift */; };
+		F366D04DEA0EBBCA9CA4F1F4E29695E8 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FB0CF51115CF71EEDB7410D0F3FEB /* ConstraintDSL.swift */; };
+		F71776B945300497A5600AB66470AC0A /* Pods-take_video-take_videoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B348EE7C3A4F1BAD0F781786378B0 /* Pods-take_video-take_videoUITests-dummy.m */; };
+		F80414B60B8E158C4A797446FDB830F5 /* Pods-take_video-take_videoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7084974BC389E34C4633C60A315FE44E /* Pods-take_video-take_videoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F94703ED86C58DDBE5A2503D148CD040 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF92EF1BBFA21815918069A64361D38 /* ConstraintRelation.swift */; };
+		FFD7E1B8FA0F3960BE24DA2D20647332 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9437B824C4F6653021ACB0550E8297D /* ConstraintRelatableTarget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1268B8E80D0C2AD768BA11DAF09E1B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D8AA920E37251A430220E5E4088BDA;
+			remoteInfo = SwiftyCam;
+		};
+		40AA1D350168FB21963196EABA7E1A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A8DB685241263AFDF5E6B20FE67B93A;
+			remoteInfo = "SnapKit-SnapKit_Privacy";
+		};
+		4B1BD9A780684D4D1F192329C9FA0325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8FCA85B3558A30D23D1563ED89534C7;
+			remoteInfo = "Pods-take_video";
+		};
+		627A12843E3709B88A03318C17224613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		845C775428133FA14EEF1425428F5A4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		9E7AB32B3561A0F0E571CFFC85B0E2C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D8AA920E37251A430220E5E4088BDA;
+			remoteInfo = SwiftyCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0117E5B73E355F5C0C12390FB76DC999 /* Pods-take_videoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-take_videoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		01A68A4CA597B01A42BF1BBE00AC2632 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		03A995083BF9BFEF16096EB4AD3DB5D9 /* Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = Source/Orientation.swift; sourceTree = "<group>"; };
+		0B99FD3BC477276DF32BAD1DB6BA362F /* SwiftyCam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCam-dummy.m"; sourceTree = "<group>"; };
+		0BA278E045537C3C2EEB2420A4E4615D /* SwiftyCam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyCam.modulemap; sourceTree = "<group>"; };
+		0F88474154667165B2419545065EC3EF /* SwiftyCam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-umbrella.h"; sourceTree = "<group>"; };
+		11BB6ACADC916953FD2880055E7C414E /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		19819F97D750D3EE7BF98938131C38B6 /* Pods-take_video-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-take_video-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B9400B5C60C6A15E71E49E0DB30098F /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
+		266504300C7A99F73EE12A32A88F49C8 /* SwiftyCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCam.debug.xcconfig; sourceTree = "<group>"; };
+		3075B466B6EF18F12CBE3969967C6C2C /* Pods-take_video-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-take_video-dummy.m"; sourceTree = "<group>"; };
+		3110A61D9C1B39036F4BA2FF59AB28C3 /* Pods-take_videoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-take_videoTests"; path = Pods_take_videoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BA52B0610D36F51E93012F9A6E61FE /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
+		3708BD207F8D6C5CA4D1C69D875BB627 /* Pods-take_videoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-take_videoTests.release.xcconfig"; sourceTree = "<group>"; };
+		372BD455E61FAADB42688A8387BD7DFC /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		3B650E9B20C919D0D43B9D809F60DE9E /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
+		42CDD779A41628FB3D889738A7FF672E /* Pods-take_videoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-take_videoTests-umbrella.h"; sourceTree = "<group>"; };
+		48580EF6BD2633F5C8F606FF277110B5 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		4E5D4FFB9D2785EF7976063FC99CB8E7 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		5195D8DEE197685CF1FD52CBC41CF9FF /* Pods-take_video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-take_video.release.xcconfig"; sourceTree = "<group>"; };
+		520ACF05482533460F6032A292CAC055 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		53932D23B582D5FD19250519B74E168B /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Sources/Debugging.swift; sourceTree = "<group>"; };
+		53E59D684B55004498AC488A25412E81 /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewControllerDelegate.swift; path = Source/SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+		549350F1E13FAE743B8266E5B6186661 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		57A0079A42C15F9024BC5070D484EA7E /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
+		615569F9F2AAC26C59CD508B7D19C0A3 /* SwiftyCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		629947BA716D51503C9BC31172C4F940 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
+		629F7153740013E16AB3CCAC64543B15 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		6628C331B73E73DFAF6247B091738A32 /* Pods-take_video-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-take_video-frameworks.sh"; sourceTree = "<group>"; };
+		66C4A010797C51C22C9754E8FD35AE13 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		677B348EE7C3A4F1BAD0F781786378B0 /* Pods-take_video-take_videoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-take_video-take_videoUITests-dummy.m"; sourceTree = "<group>"; };
+		67EC04E1DB7ED0F67DF98D39A5FF7769 /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
+		6D20A35443EB963106233EAC286125A8 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		6DA6763AC9C028E412A30A165A42D3D5 /* SwiftyCam-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyCam-Info.plist"; sourceTree = "<group>"; };
+		7084974BC389E34C4633C60A315FE44E /* Pods-take_video-take_videoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-take_video-take_videoUITests-umbrella.h"; sourceTree = "<group>"; };
+		723D665927D2160A98A80965F9CDB32A /* Pods-take_videoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-take_videoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75AA22FD84F8246D30F56DA73CFEC069 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		7923DE95182EFE6D868678A1491BEFD0 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
+		79F035D8AEE250DDF2E9B2BFE2B6EC2E /* Pods-take_video-take_videoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-take_video-take_videoUITests-Info.plist"; sourceTree = "<group>"; };
+		79F2E2B65B907B6D4E717311E7DAEE51 /* PreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Source/PreviewView.swift; sourceTree = "<group>"; };
+		7B512C23836595A95D57AE740E935C10 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
+		7E014DA204A2EDD4950A62FE6D4B6A46 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		8D68F917EE104B5BA05A8C5F55E4534D /* Pods-take_video-take_videoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-take_video-take_videoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EC364E259885149800CF5E30979A8FC /* SwiftyCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCam.release.xcconfig; sourceTree = "<group>"; };
+		90BA6E9C0E2C46611743EAB189629F72 /* Pods-take_video-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-take_video-Info.plist"; sourceTree = "<group>"; };
+		9288260C6621647BE4C31DC88EF66A91 /* Pods-take_video-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-take_video-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92EFA8E0EBD157DE46D209A5564506FB /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		93CF69D0EA1198530B8773B5A2B4E937 /* SwiftyCamButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamButton.swift; path = Source/SwiftyCamButton.swift; sourceTree = "<group>"; };
+		961DD4A5EBBF2952B4BEB22C9851F9AB /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		9641FC9BCCE14CD0F84EC4E22634725E /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Sources/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F1713149D807D8F3016D4616B9693F /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		9B2AEE1BBB442A882419EC07590D43E0 /* Pods-take_video.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-take_video.modulemap"; sourceTree = "<group>"; };
+		9C505D1B02E004BFDC95C195F2CFD55F /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3D2209F87BC9BE2212A6BEDB14EBBE /* SwiftyCam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-prefix.pch"; sourceTree = "<group>"; };
+		A36B33524B2BB6B39E395E1E2B0D80D2 /* ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist"; sourceTree = "<group>"; };
+		A4C2F76367C1126454BF119DB7F2179A /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		A70EFB71AFE91E530E4BBD82BBD2FC8B /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
+		AB2D2AEABECE8789B107FF5A126730F7 /* Pods-take_video-take_videoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-take_video-take_videoUITests.modulemap"; sourceTree = "<group>"; };
+		AC775BD90BE8F9F1BEAB99D5ABBAFDB7 /* Pods-take_video */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-take_video"; path = Pods_take_video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE78DAA74652645406190A4C476D6008 /* Pods-take_video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-take_video.debug.xcconfig"; sourceTree = "<group>"; };
+		B02AAF6F48B52B090E788BC93B582D65 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
+		B28EA78D396C11488C097425E97CD702 /* Pods-take_videoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-take_videoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9B97FA52F5E0AD857143985E5EBB38D /* Pods-take_video-take_videoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-take_video-take_videoUITests"; path = Pods_take_video_take_videoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SnapKit-SnapKit_Privacy"; path = SnapKit_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC94F85D10268330C5D9D6B896E162B /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		C019E022ECFE8B5E4CD5F3626F891ECD /* Pods-take_video-take_videoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-take_video-take_videoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C6849AE7A394FD50B697A01C73ED4E38 /* Pods-take_video-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-take_video-umbrella.h"; sourceTree = "<group>"; };
+		C6E39109D2139900219036C1EEE75C07 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Sources/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		CD1DC6DECEF00786888E2DCEA0C78678 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		CD4FB0CF51115CF71EEDB7410D0F3FEB /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
+		D1CCA68956A55741CE4DB94297110D1E /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		D256C77D2919618B6191FA083CFA26CF /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		D4ECF4B1A9E852FE35E1EC15C3C796A6 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		D616F79F1FD5F3ED21F93921EDB90E35 /* Pods-take_videoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-take_videoTests.modulemap"; sourceTree = "<group>"; };
+		DD513D2B87310E0BDD5C016B7C0FFB57 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
+		DDB52A87023AC66458BCD55571CB1557 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		DEBD0E588CFCDE900C749670511B4686 /* Pods-take_video-take_videoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-take_video-take_videoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DEC2775EF7E3805DA91605731E6953BA /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		DF783534353CA0B78D6314DC2BAA0244 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
+		E356344384717E1F6085FBA761A3ABEB /* Pods-take_videoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-take_videoTests-dummy.m"; sourceTree = "<group>"; };
+		E384460650D636F64BDE89CBF2B3067E /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		E66B7AE90E66FFB7C09A6427E124766C /* Pods-take_video-take_videoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-take_video-take_videoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E78063A48D95DA1787563947794075A5 /* Pods-take_video-take_videoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-take_video-take_videoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8CA88BD535CA1A67DCB5928FD5FC65B /* Pods-take_videoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-take_videoTests-Info.plist"; sourceTree = "<group>"; };
+		E9437B824C4F6653021ACB0550E8297D /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		ED37530459869BFA477BF14B939497D7 /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewController.swift; path = Source/SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		F33F02FB6CE15962EDCDF3E1B82574C8 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		F4CC5C44FA19CA4C668FE4B5C99AF74B /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		FBF92EF1BBFA21815918069A64361D38 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		296F4F14070C85D1C034F6F376A9CBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CF292B7EA3A2BF447A29BD5E9D09DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3850070B8F7B0EAE0C528F844EB65BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14F51AE43C89733C7810D970BD3E6F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582CD9C49690B0189BA1CFCAA5669E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F796DCACF7FECDF5C5CEF6AFE7BC0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E343559158D03F717C616F79FAA006 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD98B7D82FB9E8A35E97A168A868A90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D0875D7820276B626CDBD2C6ED6EE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F813E14871C7061D80E1114F5B0EE7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B993DBC237BE38AA3A3E413AA0D065E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37CA09635D310FE4A9DA5A97198A03CA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7E6A075D5ECE00CD8F8A8BCD510498C /* Pods-take_video */,
+				DE267185A3588D6094518B7FEDCC8DD2 /* Pods-take_video-take_videoUITests */,
+				FCA55977D45E433C6A8AB7527BA8E92C /* Pods-take_videoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6EE252EDA48C4854D174604C46DF3563 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				7B512C23836595A95D57AE740E935C10 /* Constraint.swift */,
+				01A68A4CA597B01A42BF1BBE00AC2632 /* ConstraintAttributes.swift */,
+				1B9400B5C60C6A15E71E49E0DB30098F /* ConstraintConfig.swift */,
+				11BB6ACADC916953FD2880055E7C414E /* ConstraintConstantTarget.swift */,
+				DF783534353CA0B78D6314DC2BAA0244 /* ConstraintDescription.swift */,
+				372BD455E61FAADB42688A8387BD7DFC /* ConstraintDirectionalInsets.swift */,
+				48580EF6BD2633F5C8F606FF277110B5 /* ConstraintDirectionalInsetTarget.swift */,
+				CD4FB0CF51115CF71EEDB7410D0F3FEB /* ConstraintDSL.swift */,
+				629947BA716D51503C9BC31172C4F940 /* ConstraintInsets.swift */,
+				4E5D4FFB9D2785EF7976063FC99CB8E7 /* ConstraintInsetTarget.swift */,
+				A70EFB71AFE91E530E4BBD82BBD2FC8B /* ConstraintItem.swift */,
+				549350F1E13FAE743B8266E5B6186661 /* ConstraintLayoutGuide.swift */,
+				629F7153740013E16AB3CCAC64543B15 /* ConstraintLayoutGuide+Extensions.swift */,
+				F33F02FB6CE15962EDCDF3E1B82574C8 /* ConstraintLayoutGuideDSL.swift */,
+				BAC94F85D10268330C5D9D6B896E162B /* ConstraintLayoutSupport.swift */,
+				92EFA8E0EBD157DE46D209A5564506FB /* ConstraintLayoutSupportDSL.swift */,
+				31BA52B0610D36F51E93012F9A6E61FE /* ConstraintMaker.swift */,
+				C6E39109D2139900219036C1EEE75C07 /* ConstraintMakerEditable.swift */,
+				D1CCA68956A55741CE4DB94297110D1E /* ConstraintMakerExtendable.swift */,
+				DDB52A87023AC66458BCD55571CB1557 /* ConstraintMakerFinalizable.swift */,
+				B02AAF6F48B52B090E788BC93B582D65 /* ConstraintMakerPrioritizable.swift */,
+				97F1713149D807D8F3016D4616B9693F /* ConstraintMakerRelatable.swift */,
+				67EC04E1DB7ED0F67DF98D39A5FF7769 /* ConstraintMakerRelatable+Extensions.swift */,
+				961DD4A5EBBF2952B4BEB22C9851F9AB /* ConstraintMultiplierTarget.swift */,
+				7E014DA204A2EDD4950A62FE6D4B6A46 /* ConstraintOffsetTarget.swift */,
+				DD513D2B87310E0BDD5C016B7C0FFB57 /* ConstraintPriority.swift */,
+				6D20A35443EB963106233EAC286125A8 /* ConstraintPriorityTarget.swift */,
+				E9437B824C4F6653021ACB0550E8297D /* ConstraintRelatableTarget.swift */,
+				FBF92EF1BBFA21815918069A64361D38 /* ConstraintRelation.swift */,
+				57A0079A42C15F9024BC5070D484EA7E /* ConstraintView.swift */,
+				E384460650D636F64BDE89CBF2B3067E /* ConstraintView+Extensions.swift */,
+				75AA22FD84F8246D30F56DA73CFEC069 /* ConstraintViewDSL.swift */,
+				53932D23B582D5FD19250519B74E168B /* Debugging.swift */,
+				9C505D1B02E004BFDC95C195F2CFD55F /* LayoutConstraint.swift */,
+				9641FC9BCCE14CD0F84EC4E22634725E /* LayoutConstraintItem.swift */,
+				7923DE95182EFE6D868678A1491BEFD0 /* Typealiases.swift */,
+				520ACF05482533460F6032A292CAC055 /* UILayoutSupport+Extensions.swift */,
+				A814B4B5EB77FCB5A06D476083D2698E /* Resources */,
+				ACF2E6BA848824BCF0804C86ACB4FEEB /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		A765E012ED4CE9CA986560498A74AD6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EE252EDA48C4854D174604C46DF3563 /* SnapKit */,
+				BB5A3949DDE0C2D5D851CF976F57E7ED /* SwiftyCam */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A814B4B5EB77FCB5A06D476083D2698E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD1DC6DECEF00786888E2DCEA0C78678 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ACF2E6BA848824BCF0804C86ACB4FEEB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A36B33524B2BB6B39E395E1E2B0D80D2 /* ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist */,
+				F4CC5C44FA19CA4C668FE4B5C99AF74B /* SnapKit.modulemap */,
+				D4ECF4B1A9E852FE35E1EC15C3C796A6 /* SnapKit-dummy.m */,
+				A4C2F76367C1126454BF119DB7F2179A /* SnapKit-Info.plist */,
+				DEC2775EF7E3805DA91605731E6953BA /* SnapKit-prefix.pch */,
+				D256C77D2919618B6191FA083CFA26CF /* SnapKit-umbrella.h */,
+				66C4A010797C51C22C9754E8FD35AE13 /* SnapKit.debug.xcconfig */,
+				3B650E9B20C919D0D43B9D809F60DE9E /* SnapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		BB5A3949DDE0C2D5D851CF976F57E7ED /* SwiftyCam */ = {
+			isa = PBXGroup;
+			children = (
+				03A995083BF9BFEF16096EB4AD3DB5D9 /* Orientation.swift */,
+				79F2E2B65B907B6D4E717311E7DAEE51 /* PreviewView.swift */,
+				93CF69D0EA1198530B8773B5A2B4E937 /* SwiftyCamButton.swift */,
+				ED37530459869BFA477BF14B939497D7 /* SwiftyCamViewController.swift */,
+				53E59D684B55004498AC488A25412E81 /* SwiftyCamViewControllerDelegate.swift */,
+				DB999F90635080DDF0AE8A869E6D1795 /* Support Files */,
+			);
+			path = SwiftyCam;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A765E012ED4CE9CA986560498A74AD6E /* Pods */,
+				E4C1252E3F48B22ADC83BD007AF63947 /* Products */,
+				37CA09635D310FE4A9DA5A97198A03CA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB999F90635080DDF0AE8A869E6D1795 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BA278E045537C3C2EEB2420A4E4615D /* SwiftyCam.modulemap */,
+				0B99FD3BC477276DF32BAD1DB6BA362F /* SwiftyCam-dummy.m */,
+				6DA6763AC9C028E412A30A165A42D3D5 /* SwiftyCam-Info.plist */,
+				9F3D2209F87BC9BE2212A6BEDB14EBBE /* SwiftyCam-prefix.pch */,
+				0F88474154667165B2419545065EC3EF /* SwiftyCam-umbrella.h */,
+				266504300C7A99F73EE12A32A88F49C8 /* SwiftyCam.debug.xcconfig */,
+				8EC364E259885149800CF5E30979A8FC /* SwiftyCam.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyCam";
+			sourceTree = "<group>";
+		};
+		DE267185A3588D6094518B7FEDCC8DD2 /* Pods-take_video-take_videoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D2AEABECE8789B107FF5A126730F7 /* Pods-take_video-take_videoUITests.modulemap */,
+				E66B7AE90E66FFB7C09A6427E124766C /* Pods-take_video-take_videoUITests-acknowledgements.markdown */,
+				E78063A48D95DA1787563947794075A5 /* Pods-take_video-take_videoUITests-acknowledgements.plist */,
+				677B348EE7C3A4F1BAD0F781786378B0 /* Pods-take_video-take_videoUITests-dummy.m */,
+				C019E022ECFE8B5E4CD5F3626F891ECD /* Pods-take_video-take_videoUITests-frameworks.sh */,
+				79F035D8AEE250DDF2E9B2BFE2B6EC2E /* Pods-take_video-take_videoUITests-Info.plist */,
+				7084974BC389E34C4633C60A315FE44E /* Pods-take_video-take_videoUITests-umbrella.h */,
+				8D68F917EE104B5BA05A8C5F55E4534D /* Pods-take_video-take_videoUITests.debug.xcconfig */,
+				DEBD0E588CFCDE900C749670511B4686 /* Pods-take_video-take_videoUITests.release.xcconfig */,
+			);
+			name = "Pods-take_video-take_videoUITests";
+			path = "Target Support Files/Pods-take_video-take_videoUITests";
+			sourceTree = "<group>";
+		};
+		E4C1252E3F48B22ADC83BD007AF63947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC775BD90BE8F9F1BEAB99D5ABBAFDB7 /* Pods-take_video */,
+				B9B97FA52F5E0AD857143985E5EBB38D /* Pods-take_video-take_videoUITests */,
+				3110A61D9C1B39036F4BA2FF59AB28C3 /* Pods-take_videoTests */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+				B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */,
+				615569F9F2AAC26C59CD508B7D19C0A3 /* SwiftyCam.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7E6A075D5ECE00CD8F8A8BCD510498C /* Pods-take_video */ = {
+			isa = PBXGroup;
+			children = (
+				9B2AEE1BBB442A882419EC07590D43E0 /* Pods-take_video.modulemap */,
+				9288260C6621647BE4C31DC88EF66A91 /* Pods-take_video-acknowledgements.markdown */,
+				19819F97D750D3EE7BF98938131C38B6 /* Pods-take_video-acknowledgements.plist */,
+				3075B466B6EF18F12CBE3969967C6C2C /* Pods-take_video-dummy.m */,
+				6628C331B73E73DFAF6247B091738A32 /* Pods-take_video-frameworks.sh */,
+				90BA6E9C0E2C46611743EAB189629F72 /* Pods-take_video-Info.plist */,
+				C6849AE7A394FD50B697A01C73ED4E38 /* Pods-take_video-umbrella.h */,
+				AE78DAA74652645406190A4C476D6008 /* Pods-take_video.debug.xcconfig */,
+				5195D8DEE197685CF1FD52CBC41CF9FF /* Pods-take_video.release.xcconfig */,
+			);
+			name = "Pods-take_video";
+			path = "Target Support Files/Pods-take_video";
+			sourceTree = "<group>";
+		};
+		FCA55977D45E433C6A8AB7527BA8E92C /* Pods-take_videoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D616F79F1FD5F3ED21F93921EDB90E35 /* Pods-take_videoTests.modulemap */,
+				0117E5B73E355F5C0C12390FB76DC999 /* Pods-take_videoTests-acknowledgements.markdown */,
+				B28EA78D396C11488C097425E97CD702 /* Pods-take_videoTests-acknowledgements.plist */,
+				E356344384717E1F6085FBA761A3ABEB /* Pods-take_videoTests-dummy.m */,
+				E8CA88BD535CA1A67DCB5928FD5FC65B /* Pods-take_videoTests-Info.plist */,
+				42CDD779A41628FB3D889738A7FF672E /* Pods-take_videoTests-umbrella.h */,
+				723D665927D2160A98A80965F9CDB32A /* Pods-take_videoTests.debug.xcconfig */,
+				3708BD207F8D6C5CA4D1C69D875BB627 /* Pods-take_videoTests.release.xcconfig */,
+			);
+			name = "Pods-take_videoTests";
+			path = "Target Support Files/Pods-take_videoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7A536C62173532F39325F8F97F32EBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFC5C12EDCAB0FF51A4A7E2EAC7EC7E /* Pods-take_videoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FB651ED151C7E4FF17D60E1CFE3670 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD782A484E231822DFEC84BDB68BB2C5 /* SwiftyCam-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2B111EBF8A7845E42930BF05778C63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D389E4D5F97798BE1AEEB8C317852D7 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA10BE40EA270DCDBB6B0BACA326E442 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80414B60B8E158C4A797446FDB830F5 /* Pods-take_video-take_videoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7955F40B761DF930F8AEFB1A3F92435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44587312CDF706B6956E84736AA488AE /* Pods-take_video-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4F25F04C086237315FCAEF7661357E /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				BD2B111EBF8A7845E42930BF05778C63 /* Headers */,
+				B52EB97EAADC4B42F512DF593D183539 /* Sources */,
+				6F796DCACF7FECDF5C5CEF6AFE7BC0FF /* Frameworks */,
+				8AFC96B9D49AC279B3790C99847FF1B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226D89C32B7DA53EA9FE130C2EED477C /* PBXTargetDependency */,
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41AF215EE8C5CC27F47450AB11CAF86D /* Pods-take_videoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7CC0EE88A344F7155DB4B0A698AE56C /* Build configuration list for PBXNativeTarget "Pods-take_videoTests" */;
+			buildPhases = (
+				B7A536C62173532F39325F8F97F32EBA /* Headers */,
+				50233F582888A2DF89E9EB0D6E8C6977 /* Sources */,
+				296F4F14070C85D1C034F6F376A9CBBD /* Frameworks */,
+				29CB36BF8C49C55361B7C9877C38AD9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C97820C611E71EC4C88A9F5D44BBBA /* PBXTargetDependency */,
+			);
+			name = "Pods-take_videoTests";
+			productName = Pods_take_videoTests;
+			productReference = 3110A61D9C1B39036F4BA2FF59AB28C3 /* Pods-take_videoTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		6466EBB0D0431041768CB26A6E7C847B /* Pods-take_video-take_videoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724E73E3DD6FA24876CA29BEFF91FA8C /* Build configuration list for PBXNativeTarget "Pods-take_video-take_videoUITests" */;
+			buildPhases = (
+				DA10BE40EA270DCDBB6B0BACA326E442 /* Headers */,
+				987AFFEE3D5895A53DFD895C8AB1B427 /* Sources */,
+				CD98B7D82FB9E8A35E97A168A868A90F /* Frameworks */,
+				A0799031BE370E51D298E0A2D5BB1E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5EEA8312E8D816F85EFAB2ADE6F2A35 /* PBXTargetDependency */,
+				82432C204619543A98209BDDF99AD4A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-take_video-take_videoUITests";
+			productName = Pods_take_video_take_videoUITests;
+			productReference = B9B97FA52F5E0AD857143985E5EBB38D /* Pods-take_video-take_videoUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		64D8AA920E37251A430220E5E4088BDA /* SwiftyCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF34986C6CDFBE8F9F4CB00BF61CEC5 /* Build configuration list for PBXNativeTarget "SwiftyCam" */;
+			buildPhases = (
+				B8FB651ED151C7E4FF17D60E1CFE3670 /* Headers */,
+				28FBF8CDA755C42B0245887E57A453B9 /* Sources */,
+				F813E14871C7061D80E1114F5B0EE7C8 /* Frameworks */,
+				B859A245243043FA8AAF6146E9CBA690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyCam;
+			productName = SwiftyCam;
+			productReference = 615569F9F2AAC26C59CD508B7D19C0A3 /* SwiftyCam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D1874EFA8D27DDAC92BA92CC2A27D0 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */;
+			buildPhases = (
+				8F9671C550F62506D6DF55F1DF24716D /* Sources */,
+				582CD9C49690B0189BA1CFCAA5669E13 /* Frameworks */,
+				8D73778050FD411CFDBD2BDC1FB4605C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SnapKit-SnapKit_Privacy";
+			productName = SnapKit_Privacy;
+			productReference = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B8FCA85B3558A30D23D1563ED89534C7 /* Pods-take_video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629E82835EFAD38EDEF6FE91620A292F /* Build configuration list for PBXNativeTarget "Pods-take_video" */;
+			buildPhases = (
+				F7955F40B761DF930F8AEFB1A3F92435 /* Headers */,
+				0F2D7E649359D7E240BC17960CA4AABE /* Sources */,
+				3850070B8F7B0EAE0C528F844EB65BA0 /* Frameworks */,
+				AB6A5987355D588D24BE15E7941D1E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3073DE15DA48A9DA9EBC7B2C9E7897F5 /* PBXTargetDependency */,
+				E69C15027461BDBAC76188240C51DF8A /* PBXTargetDependency */,
+			);
+			name = "Pods-take_video";
+			productName = Pods_take_video;
+			productReference = AC775BD90BE8F9F1BEAB99D5ABBAFDB7 /* Pods-take_video */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E4C1252E3F48B22ADC83BD007AF63947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8FCA85B3558A30D23D1563ED89534C7 /* Pods-take_video */,
+				6466EBB0D0431041768CB26A6E7C847B /* Pods-take_video-take_videoUITests */,
+				41AF215EE8C5CC27F47450AB11CAF86D /* Pods-take_videoTests */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+				8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */,
+				64D8AA920E37251A430220E5E4088BDA /* SwiftyCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29CB36BF8C49C55361B7C9877C38AD9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFC96B9D49AC279B3790C99847FF1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D091D9EA20CEB92609BF1E622E8CA348 /* SnapKit-SnapKit_Privacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D73778050FD411CFDBD2BDC1FB4605C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1016AE0AF292F3099055A0752D54DB0A /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0799031BE370E51D298E0A2D5BB1E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6A5987355D588D24BE15E7941D1E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B859A245243043FA8AAF6146E9CBA690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F2D7E649359D7E240BC17960CA4AABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC53C319467EC2E0F3541D57899F7A38 /* Pods-take_video-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FBF8CDA755C42B0245887E57A453B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7486F29A0281BF3895691642F0B4253 /* Orientation.swift in Sources */,
+				1617737C00264612593DEDA3148C662B /* PreviewView.swift in Sources */,
+				8EA1876E38362796CBC1121D9D693252 /* SwiftyCam-dummy.m in Sources */,
+				66D97D294305D14E0CCB83C66734A2C8 /* SwiftyCamButton.swift in Sources */,
+				03A2ACE6E5F621A0EE2259A8D4435229 /* SwiftyCamViewController.swift in Sources */,
+				132A0A94A2163F14EF37A3675A5E203D /* SwiftyCamViewControllerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50233F582888A2DF89E9EB0D6E8C6977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8A0F6B86BFB8941302013C3A0E2706 /* Pods-take_videoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9671C550F62506D6DF55F1DF24716D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987AFFEE3D5895A53DFD895C8AB1B427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71776B945300497A5600AB66470AC0A /* Pods-take_video-take_videoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52EB97EAADC4B42F512DF593D183539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B133BB9C9B03481C7F1D221F35A617F2 /* Constraint.swift in Sources */,
+				9779D52AD8CDA703D6EEE1C6D38E019F /* ConstraintAttributes.swift in Sources */,
+				E94B31DCAF75D93405D3BAE188604EB2 /* ConstraintConfig.swift in Sources */,
+				B3F75D115D5150C258F5E68404751010 /* ConstraintConstantTarget.swift in Sources */,
+				A051999781E1280746F7743BDEEA6C49 /* ConstraintDescription.swift in Sources */,
+				BE355F69F84788D334FDAC7D1CD9B8C4 /* ConstraintDirectionalInsets.swift in Sources */,
+				B4F9C9EC1B3F1689AE56BB719AE5439C /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				F366D04DEA0EBBCA9CA4F1F4E29695E8 /* ConstraintDSL.swift in Sources */,
+				A0371DF7D93D9B86BD50474D4B9294FD /* ConstraintInsets.swift in Sources */,
+				7052944C657F270E47777446D0E10E1C /* ConstraintInsetTarget.swift in Sources */,
+				906EF891E58A035281766993F82373E3 /* ConstraintItem.swift in Sources */,
+				0A5C290276F7453D9471E25BEA655842 /* ConstraintLayoutGuide.swift in Sources */,
+				938CFF5F6DE6E7E8CE94373E51F3E07A /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				0DA9A9D2F8960818017E26DA480FA143 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				13CC0CFB1C56F23BBC872801F983C1A3 /* ConstraintLayoutSupport.swift in Sources */,
+				D92AEF78B87F929D88D5C876ABBAD79A /* ConstraintLayoutSupportDSL.swift in Sources */,
+				8640829049AE9907FE93825E5510C33D /* ConstraintMaker.swift in Sources */,
+				0AD7A0DA8FF5880E3D8599062129AB12 /* ConstraintMakerEditable.swift in Sources */,
+				6431218578A566C5EBF5FD166F164059 /* ConstraintMakerExtendable.swift in Sources */,
+				BF567AEFDD52DC43AC75122734D571E2 /* ConstraintMakerFinalizable.swift in Sources */,
+				87996D11DC92EE19EAF9305DAEA4ACF2 /* ConstraintMakerPrioritizable.swift in Sources */,
+				950B809760A8CE4375DCE1016FB9859F /* ConstraintMakerRelatable.swift in Sources */,
+				15F68E09ADCDB843B938C490059485BD /* ConstraintMakerRelatable+Extensions.swift in Sources */,
+				50E4E24710A4C5A77BE6594A10DFE773 /* ConstraintMultiplierTarget.swift in Sources */,
+				56CD198002D3D45274F6719725B983CF /* ConstraintOffsetTarget.swift in Sources */,
+				EFC90283F9AB43BB6FF377812BD3673F /* ConstraintPriority.swift in Sources */,
+				77D782DE125D322922466676E2FFA289 /* ConstraintPriorityTarget.swift in Sources */,
+				FFD7E1B8FA0F3960BE24DA2D20647332 /* ConstraintRelatableTarget.swift in Sources */,
+				F94703ED86C58DDBE5A2503D148CD040 /* ConstraintRelation.swift in Sources */,
+				8868BA37E3CE7C58D26123806D543F3F /* ConstraintView.swift in Sources */,
+				C04DBE6AE13FC5CFD01D363A351EF76A /* ConstraintView+Extensions.swift in Sources */,
+				0D665B6767B345D8C70D7E029A2A48D8 /* ConstraintViewDSL.swift in Sources */,
+				1E7E37C51375285EA22294CD2ADB3159 /* Debugging.swift in Sources */,
+				6E2884B29CD49EE91C48C725105F295A /* LayoutConstraint.swift in Sources */,
+				A35877DE0C3D6B4CF2A10E666EF5F490 /* LayoutConstraintItem.swift in Sources */,
+				3DAFEDCDC5094007E329D71FE84FF704 /* SnapKit-dummy.m in Sources */,
+				73F8AC99A58E5837924C056E89543B97 /* Typealiases.swift in Sources */,
+				891D1BF14C8881C74262EE9DBE5D67A9 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09C97820C611E71EC4C88A9F5D44BBBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-take_video";
+			target = B8FCA85B3558A30D23D1563ED89534C7 /* Pods-take_video */;
+			targetProxy = 4B1BD9A780684D4D1F192329C9FA0325 /* PBXContainerItemProxy */;
+		};
+		226D89C32B7DA53EA9FE130C2EED477C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SnapKit-SnapKit_Privacy";
+			target = 8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */;
+			targetProxy = 40AA1D350168FB21963196EABA7E1A17 /* PBXContainerItemProxy */;
+		};
+		3073DE15DA48A9DA9EBC7B2C9E7897F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 845C775428133FA14EEF1425428F5A4D /* PBXContainerItemProxy */;
+		};
+		82432C204619543A98209BDDF99AD4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyCam;
+			target = 64D8AA920E37251A430220E5E4088BDA /* SwiftyCam */;
+			targetProxy = 1268B8E80D0C2AD768BA11DAF09E1B1A /* PBXContainerItemProxy */;
+		};
+		A5EEA8312E8D816F85EFAB2ADE6F2A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 627A12843E3709B88A03318C17224613 /* PBXContainerItemProxy */;
+		};
+		E69C15027461BDBAC76188240C51DF8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyCam;
+			target = 64D8AA920E37251A430220E5E4088BDA /* SwiftyCam */;
+			targetProxy = 9E7AB32B3561A0F0E571CFFC85B0E2C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DA2C98E28496EE49BCCFE74673EB465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723D665927D2160A98A80965F9CDB32A /* Pods-take_videoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-take_videoTests/Pods-take_videoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-take_videoTests/Pods-take_videoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14B828D6BCB143E42C84F3DBEBCD595E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B650E9B20C919D0D43B9D809F60DE9E /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SnapKit";
+				IBSC_MODULE = SnapKit;
+				INFOPLIST_FILE = "Target Support Files/SnapKit/ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = SnapKit_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DBD17A93540204BB737CD5CFBFDE332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC364E259885149800CF5E30979A8FC /* SwiftyCam.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/SwiftyCam-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyCam;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F8F5A10E41E53360D98263F292D94D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		33BF93295B741AE6E6CBEA6D8BC8645E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEBD0E588CFCDE900C749670511B4686 /* Pods-take_video-take_videoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F9AE7FB4ACAB7722C091E1EFA9FF12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		50547AF27339F1F92F7CB83B1BBE7FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266504300C7A99F73EE12A32A88F49C8 /* SwiftyCam.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/SwiftyCam-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyCam;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A5EC6EF610AE5D25A19B26F8443A721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D68F917EE104B5BA05A8C5F55E4534D /* Pods-take_video-take_videoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6856D6A9C91C392BBB204B508BF52671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5195D8DEE197685CF1FD52CBC41CF9FF /* Pods-take_video.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-take_video/Pods-take_video-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-take_video/Pods-take_video.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8116F4B86ED050E931DADE21A3B41BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C4A010797C51C22C9754E8FD35AE13 /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SnapKit";
+				IBSC_MODULE = SnapKit;
+				INFOPLIST_FILE = "Target Support Files/SnapKit/ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = SnapKit_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9106C652256CECD4ED26E7BCE72696AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE78DAA74652645406190A4C476D6008 /* Pods-take_video.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-take_video/Pods-take_video-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-take_video/Pods-take_video.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		984240AE6A3D535525200348828211E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B650E9B20C919D0D43B9D809F60DE9E /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C0B415A54C1C30F674208B8ADAB6C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C4A010797C51C22C9754E8FD35AE13 /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9CB1B4E94CF4C08D922526D26B31BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3708BD207F8D6C5CA4D1C69D875BB627 /* Pods-take_videoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-take_videoTests/Pods-take_videoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-take_videoTests/Pods-take_videoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8F5A10E41E53360D98263F292D94D1 /* Debug */,
+				4F9AE7FB4ACAB7722C091E1EFA9FF12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF34986C6CDFBE8F9F4CB00BF61CEC5 /* Build configuration list for PBXNativeTarget "SwiftyCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50547AF27339F1F92F7CB83B1BBE7FBF /* Debug */,
+				1DBD17A93540204BB737CD5CFBFDE332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4F25F04C086237315FCAEF7661357E /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0B415A54C1C30F674208B8ADAB6C17 /* Debug */,
+				984240AE6A3D535525200348828211E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629E82835EFAD38EDEF6FE91620A292F /* Build configuration list for PBXNativeTarget "Pods-take_video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9106C652256CECD4ED26E7BCE72696AD /* Debug */,
+				6856D6A9C91C392BBB204B508BF52671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724E73E3DD6FA24876CA29BEFF91FA8C /* Build configuration list for PBXNativeTarget "Pods-take_video-take_videoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5EC6EF610AE5D25A19B26F8443A721 /* Debug */,
+				33BF93295B741AE6E6CBEA6D8BC8645E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D1874EFA8D27DDAC92BA92CC2A27D0 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8116F4B86ED050E931DADE21A3B41BC8 /* Debug */,
+				14B828D6BCB143E42C84F3DBEBCD595E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7CC0EE88A344F7155DB4B0A698AE56C /* Build configuration list for PBXNativeTarget "Pods-take_videoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA2C98E28496EE49BCCFE74673EB465 /* Debug */,
+				A9CB1B4E94CF4C08D922526D26B31BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
