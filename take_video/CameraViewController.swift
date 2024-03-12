@@ -38,6 +38,8 @@ class CameraViewController: SwiftyCamViewController {
         return view
     }()
     
+    fileprivate var timer : Timer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
@@ -49,7 +51,6 @@ extension CameraViewController {
         setupUI()
         setupAction()
         setupVideoResolution()
-        setupVideoMaxDuration()
         setupVideoOrientationDevice()
         
         initCamera()
@@ -96,11 +97,10 @@ extension CameraViewController {
         videoQuality = .resolution640x480
     }
     
-    private func setupVideoMaxDuration(seconds: Int = 4) {
-        /// Set the video max duration
-        ///  Handle with  asyncAfter
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(seconds)) { [weak self] in
-            
+    private func setupVideoMaxDuration(seconds: TimeInterval) {
+        /// Handle the view maximum duration, in second
+        if seconds != 0 && seconds > 0 {
+            timer = Timer.scheduledTimer(timeInterval: seconds, target: self, selector:  #selector(didFinishVideoDuration), userInfo: nil, repeats: false)
         }
     }
     
@@ -108,6 +108,10 @@ extension CameraViewController {
         /// Handle  the orientation of the capture photos to allow support for landscape images by device orientation
         /// Make sure device orientation is ON
         shouldUseDeviceOrientation = true
+    }
+    
+    @objc func didFinishVideoDuration() {
+        stopVideoRecording()
     }
     
     @objc func didTapFlashButton() {
@@ -153,18 +157,18 @@ extension CameraViewController: SwiftyCamViewControllerDelegate {
     }
     
     func swiftyCam(_ swiftyCam: SwiftyCam.SwiftyCamViewController, didBeginRecordingVideo camera: SwiftyCam.SwiftyCamViewController.CameraSelection) {
-        print("--- start recording vid")
+        print("VID: start recording")
         setActionButtonState(isRecording: true)
     }
     
     func swiftyCam(_ swiftyCam: SwiftyCam.SwiftyCamViewController, didFinishRecordingVideo camera: SwiftyCam.SwiftyCamViewController.CameraSelection) {
-        print("--- finish recording vid")
+        print("VID: finish recording")
         setActionButtonState(isRecording: false)
         progressIndicator.isHidden.toggle()
     }
     
     func swiftyCam(_ swiftyCam: SwiftyCam.SwiftyCamViewController, didFinishProcessVideoAt url: URL) {
-        print("-- finish processing vid, push to preview with url = \(url)")
+        print("VID: finish processing, push to preview with url = \(url)")
         videoProcessing(url: url)
     }
     
@@ -199,7 +203,7 @@ extension CameraViewController {
         guard let data = try? Data(contentsOf: url) else {
             return
         }
-        print("File size before compression: \(Double(data.count / 1048576)) mb")
+        print("VID: File size before compression: \(Double(data.count / 1048576)) mb")
         let compressedURL = NSURL.fileURL(withPath: NSTemporaryDirectory() + UUID().uuidString + ".mp4")
         compressVideo(inputURL: url,
                       outputURL: compressedURL) { exportSession in
@@ -212,7 +216,7 @@ extension CameraViewController {
                 guard let compressedData = try? Data(contentsOf: compressedURL) else {
                     return
                 }
-                print("File size after compression: \(Double(compressedData.count / 1048576)) mb")
+                print("VID: File size after compression: \(Double(compressedData.count / 1048576)) mb")
                 DispatchQueue.main.async {
                     self.progressIndicator.isHidden.toggle()
                     self.navigateToPreviewVideo(with: url)

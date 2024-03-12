@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0D79B5D28A4E20E5C0C4748B /* Pods_take_video.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8960762C4A493F243B492F99 /* Pods_take_video.framework */; };
-		9F13FF22CB2C2431AE18C7CA /* Pods_take_video_take_videoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE58F7327E53013D511CFE2 /* Pods_take_video_take_videoUITests.framework */; };
 		B450132CFD34BE8CBF150BE8 /* Pods_take_videoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CF5AA857EBE78F1AB80BB3 /* Pods_take_videoTests.framework */; };
 		C61E6F242B9AE45900769B35 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E6F232B9AE45900769B35 /* CameraViewController.swift */; };
 		C697A7BE2B9AB7A20046F135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A7BD2B9AB7A20046F135 /* AppDelegate.swift */; };
@@ -18,20 +17,11 @@
 		C697A7C72B9AB7A30046F135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C697A7C62B9AB7A30046F135 /* Assets.xcassets */; };
 		C697A7CA2B9AB7A30046F135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C697A7C82B9AB7A30046F135 /* LaunchScreen.storyboard */; };
 		C697A7D52B9AB7A30046F135 /* take_videoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A7D42B9AB7A30046F135 /* take_videoTests.swift */; };
-		C697A7DF2B9AB7A30046F135 /* take_videoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A7DE2B9AB7A30046F135 /* take_videoUITests.swift */; };
-		C697A7E12B9AB7A30046F135 /* take_videoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C697A7E02B9AB7A30046F135 /* take_videoUITestsLaunchTests.swift */; };
 		C6CC1EC52B9AF8B4000CE36A /* PreviewVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CC1EC42B9AF8B4000CE36A /* PreviewVideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		C697A7D12B9AB7A30046F135 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C697A7B22B9AB7A20046F135 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C697A7B92B9AB7A20046F135;
-			remoteInfo = take_video;
-		};
-		C697A7DB2B9AB7A30046F135 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C697A7B22B9AB7A20046F135 /* Project object */;
 			proxyType = 1;
@@ -60,7 +50,6 @@
 		C697A7CB2B9AB7A30046F135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C697A7D02B9AB7A30046F135 /* take_videoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = take_videoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C697A7D42B9AB7A30046F135 /* take_videoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = take_videoTests.swift; sourceTree = "<group>"; };
-		C697A7DA2B9AB7A30046F135 /* take_videoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = take_videoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C697A7DE2B9AB7A30046F135 /* take_videoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = take_videoUITests.swift; sourceTree = "<group>"; };
 		C697A7E02B9AB7A30046F135 /* take_videoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = take_videoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C6CC1EC42B9AF8B4000CE36A /* PreviewVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVideoViewController.swift; sourceTree = "<group>"; };
@@ -81,14 +70,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B450132CFD34BE8CBF150BE8 /* Pods_take_videoTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C697A7D72B9AB7A30046F135 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F13FF22CB2C2431AE18C7CA /* Pods_take_video_take_videoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +106,6 @@
 			children = (
 				C697A7BA2B9AB7A20046F135 /* take_video.app */,
 				C697A7D02B9AB7A30046F135 /* take_videoTests.xctest */,
-				C697A7DA2B9AB7A30046F135 /* take_videoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -214,26 +194,6 @@
 			productReference = C697A7D02B9AB7A30046F135 /* take_videoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C697A7D92B9AB7A30046F135 /* take_videoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C697A7EA2B9AB7A30046F135 /* Build configuration list for PBXNativeTarget "take_videoUITests" */;
-			buildPhases = (
-				287127D62167052F1305C8D4 /* [CP] Check Pods Manifest.lock */,
-				C697A7D62B9AB7A30046F135 /* Sources */,
-				C697A7D72B9AB7A30046F135 /* Frameworks */,
-				C697A7D82B9AB7A30046F135 /* Resources */,
-				5F3729CFEF4472DE22B7F474 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C697A7DC2B9AB7A30046F135 /* PBXTargetDependency */,
-			);
-			name = take_videoUITests;
-			productName = take_videoUITests;
-			productReference = C697A7DA2B9AB7A30046F135 /* take_videoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -248,10 +208,6 @@
 						CreatedOnToolsVersion = 15.2;
 					};
 					C697A7CF2B9AB7A30046F135 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = C697A7B92B9AB7A20046F135;
-					};
-					C697A7D92B9AB7A30046F135 = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = C697A7B92B9AB7A20046F135;
 					};
@@ -272,7 +228,6 @@
 			targets = (
 				C697A7B92B9AB7A20046F135 /* take_video */,
 				C697A7CF2B9AB7A30046F135 /* take_videoTests */,
-				C697A7D92B9AB7A30046F135 /* take_videoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,38 +250,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C697A7D82B9AB7A30046F135 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		287127D62167052F1305C8D4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-take_video-take_videoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		320132C049C1BBC727932E6D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,23 +314,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5F3729CFEF4472DE22B7F474 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-take_video-take_videoUITests/Pods-take_video-take_videoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -428,15 +337,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C697A7D62B9AB7A30046F135 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C697A7DF2B9AB7A30046F135 /* take_videoUITests.swift in Sources */,
-				C697A7E12B9AB7A30046F135 /* take_videoUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -444,11 +344,6 @@
 			isa = PBXTargetDependency;
 			target = C697A7B92B9AB7A20046F135 /* take_video */;
 			targetProxy = C697A7D12B9AB7A30046F135 /* PBXContainerItemProxy */;
-		};
-		C697A7DC2B9AB7A30046F135 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C697A7B92B9AB7A20046F135 /* take_video */;
-			targetProxy = C697A7DB2B9AB7A30046F135 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -605,7 +500,7 @@
 				INFOPLIST_FILE = take_video/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -636,7 +531,7 @@
 				INFOPLIST_FILE = take_video/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -695,44 +590,6 @@
 			};
 			name = Release;
 		};
-		C697A7EB2B9AB7A30046F135 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 186D8E59DDCF79011579EB4E /* Pods-take_video-take_videoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KZ78P3UPMD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.agampng.take-videoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = take_video;
-			};
-			name = Debug;
-		};
-		C697A7EC2B9AB7A30046F135 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1EA0CAE830654F13EFB2075 /* Pods-take_video-take_videoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KZ78P3UPMD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.agampng.take-videoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = take_video;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -759,15 +616,6 @@
 			buildConfigurations = (
 				C697A7E82B9AB7A30046F135 /* Debug */,
 				C697A7E92B9AB7A30046F135 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C697A7EA2B9AB7A30046F135 /* Build configuration list for PBXNativeTarget "take_videoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C697A7EB2B9AB7A30046F135 /* Debug */,
-				C697A7EC2B9AB7A30046F135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
