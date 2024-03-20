@@ -21,8 +21,4 @@ class ViewController: UIViewController {
         let vc = CameraViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
-    
-    @IBAction func selectVideoAction(_ sender: UIButton) {
-        
-    }
 }

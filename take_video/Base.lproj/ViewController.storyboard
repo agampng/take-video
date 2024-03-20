@@ -18,22 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="YZF-Xu-sJT">
-                                <rect key="frame" x="136.66666666666666" y="378.66666666666669" width="119.99999999999997" height="94.666666666666686"/>
+                                <rect key="frame" x="143" y="409" width="107.33333333333331" height="34.333333333333314"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPx-Ds-k4N">
-                                        <rect key="frame" x="0.0" y="0.0" width="120" height="34.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="107.33333333333333" height="34.333333333333336"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Take Video"/>
                                         <connections>
                                             <action selector="takeVideoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TrI-Y8-3Yb"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jla-Vg-IgO">
-                                        <rect key="frame" x="0.0" y="60.333333333333314" width="120" height="34.333333333333343"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Select Video"/>
-                                        <connections>
-                                            <action selector="selectVideoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="km2-u0-Bhh"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -48,6 +40,13 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <navigationBar contentMode="scaleToFill" id="vqu-fb-Iol">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <items>
+                        <navigationItem title="Title" id="q0s-nM-qvw"/>
+                    </items>
+                </navigationBar>
             </objects>
             <point key="canvasLocation" x="59" y="-27"/>
         </scene>

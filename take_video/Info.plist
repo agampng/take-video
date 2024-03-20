@@ -25,5 +25,9 @@
 	<string>Light</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>To Record Audio With Video</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need to access your photo library to upload photo you selected.</string>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
 </dict>
 </plist>
