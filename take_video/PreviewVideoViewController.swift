@@ -105,7 +105,7 @@ class PreviewVideoViewController: UIViewController {
     
     guard let actualVideoURL,
           let actualData = try? Data(contentsOf: actualVideoURL) else {
-      vc.infoData = ["Video size:": "\(Double(data.count / 1048576)) MB",
+      vc.infoData = ["Video size:": "\(Units(bytes: Int64(data.count)).getReadableUnit())",
                      "Duration:": "\(player?.currentItem?.duration.seconds.rounded() ?? 0) seconds",
                      "Presentation Size:": "\(player!.currentItem!.presentationSize.height) x \(player!.currentItem!.presentationSize.width)",]
       present(vc, animated: true)
