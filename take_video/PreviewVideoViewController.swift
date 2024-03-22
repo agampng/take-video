@@ -115,7 +115,7 @@ class PreviewVideoViewController: UIViewController {
     let actualMB = Units(bytes: Int64(actualData.count)).getReadableUnit() // Double(actualData.count / 1048576)
     let compressedMB = Units(bytes: Int64(data.count)).getReadableUnit() // Double(data.count / 1048576)
     
-    let compressRate = (Double(data.count) / Double(actualData.count)) * 100
+    let compressRate = 100 - ((Double(data.count) / Double(actualData.count)) * 100)
     
     vc.infoData = ["Actual Video size:": "\(actualMB)",
                    "Video size:": "\(compressedMB)",

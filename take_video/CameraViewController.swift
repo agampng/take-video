@@ -141,7 +141,7 @@ extension CameraViewController {
   
   private func setupVideoResolution() {
     /// Set the video resolution, but limited
-    videoQuality = .resolution352x288
+    videoQuality = .resolution640x480
   }
   
   private func setupVideoMaxDuration(seconds: TimeInterval) {
