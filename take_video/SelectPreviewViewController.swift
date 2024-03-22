@@ -85,6 +85,8 @@ class SelectPreviewViewController: UIViewController {
   var infoData: [String: String] = [:]
   //  var compressVidUrl: URL?
   var rawVidUrl: URL?
+  var compressTimer: Timer?
+  var compressTime = 0
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -132,6 +134,13 @@ extension SelectPreviewViewController {
     let vc = PreviewVideoViewController(videoURL: url)
     navigationController?.pushViewController(vc, animated: true)
   }
+  
+  private func navigateToPreviewVideoCompress(with url: URL, actualVidUrl: URL) {
+    let vc = PreviewVideoViewController(videoURL: url)
+    vc.compressProcessingTime = compressTime
+    vc.actualVideoURL = rawVidUrl
+    navigationController?.pushViewController(vc, animated: true)
+  }
 }
 
 extension SelectPreviewViewController {
@@ -161,8 +170,9 @@ extension SelectPreviewViewController {
       print("--- ERROR \(error)")
     }
     
-    
-    
+    compressTimer?.invalidate()
+    compressTime = 0
+    compressTimer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: #selector(self.startTimer(_:)), userInfo: nil, repeats: true)
     let compressedURL = NSURL.fileURL(withPath: NSTemporaryDirectory() + UUID().uuidString + ".mp4")
     compressVideo(inputURL: url,
                   outputURL: compressedURL,
@@ -177,14 +187,14 @@ extension SelectPreviewViewController {
           return
         }
         print("VID: File size after compression: \(Double(compressedData.count / 1048576)) mb")
-        
+        self.compressTimer?.invalidate()
         let afterfilename = self.getDocumentsDirectory().appendingPathComponent("AFTER_\(compressedURL.lastPathComponent)")
         try? data.write(to: afterfilename)
         //        self.rawVidUrl = url
         //        self.compressVidUrl = compressedURL
         DispatchQueue.main.async {
           self.progressIndicator.isHidden.toggle()
-          self.navigateToPreviewVideo(with: compressedURL)
+          self.navigateToPreviewVideoCompress(with: compressedURL, actualVidUrl: url)
         }
       default:
         break
@@ -208,5 +218,10 @@ extension SelectPreviewViewController {
     exportSession.exportAsynchronously {
       handler(exportSession)
     }
+  }
+  
+  @objc private func startTimer(_ timer: Timer) {
+    print("---- start compressTime")
+    compressTime += 1
   }
 }

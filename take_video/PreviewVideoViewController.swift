@@ -25,6 +25,9 @@ class PreviewVideoViewController: UIViewController {
     return true
   }
   
+  var actualVideoURL: URL?
+  var compressProcessingTime: Int?
+  
   private var videoURL: URL
   var player: AVPlayer?
   var playerController : AVPlayerViewController?
@@ -100,9 +103,25 @@ class PreviewVideoViewController: UIViewController {
       return
     }
     
-    vc.infoData = ["Video size:": "\(Double(data.count / 1048576)) MB",
-                   "Duration:": "\(player?.currentItem?.duration.seconds.rounded() ?? 0) seconds",
-                   "Presentation Size:": "\(player!.currentItem!.presentationSize.height) x \(player!.currentItem!.presentationSize.width)",]
+    guard let actualVideoURL,
+          let actualData = try? Data(contentsOf: actualVideoURL) else {
+      vc.infoData = ["Video size:": "\(Double(data.count / 1048576)) MB",
+                     "Duration:": "\(player?.currentItem?.duration.seconds.rounded() ?? 0) seconds",
+                     "Presentation Size:": "\(player!.currentItem!.presentationSize.height) x \(player!.currentItem!.presentationSize.width)",]
+      return
+    }
+    
+    let actualMB = Units(bytes: Int64(actualData.count)).getReadableUnit() // Double(actualData.count / 1048576)
+    let compressedMB = Units(bytes: Int64(data.count)).getReadableUnit() // Double(data.count / 1048576)
+    
+    let compressRate = (Double(data.count) / Double(actualData.count)) * 100
+    
+    vc.infoData = ["Actual Video size:": "\(actualMB)",
+                   "Video size:": "\(compressedMB)",
+                   "Video Duration:": "\(player?.currentItem?.duration.seconds.rounded() ?? 0) seconds",
+                   "Compression Duration:": "\(compressProcessingTime ?? 0) seconds",
+                   "Presentation Size:": "\(player!.currentItem!.presentationSize.height) x \(player!.currentItem!.presentationSize.width)",
+                   "Compress Percentage:": "\(compressRate) %",]
     present(vc, animated: true)
   }
   
@@ -118,3 +137,42 @@ class PreviewVideoViewController: UIViewController {
 fileprivate func convertFromAVAudioSessionCategory(_ input: AVAudioSession.Category) -> String {
   return input.rawValue
 }
+
+
+public struct Units {
+  
+  public let bytes: Int64
+  
+  public var kilobytes: Double {
+    return Double(bytes) / 1_024
+  }
+  
+  public var megabytes: Double {
+    return kilobytes / 1_024
+  }
+  
+  public var gigabytes: Double {
+    return megabytes / 1_024
+  }
+  
+  public init(bytes: Int64) {
+    self.bytes = bytes
+  }
+  
+  public func getReadableUnit() -> String {
+    
+    switch bytes {
+    case 0..<1_024:
+      return "\(bytes) bytes"
+    case 1_024..<(1_024 * 1_024):
+      return "\(String(format: "%.2f", kilobytes)) kb"
+    case 1_024..<(1_024 * 1_024 * 1_024):
+      return "\(String(format: "%.2f", megabytes)) mb"
+    case (1_024 * 1_024 * 1_024)...Int64.max:
+      return "\(String(format: "%.2f", gigabytes)) gb"
+    default:
+      return "\(bytes) bytes"
+    }
+  }
+}
+
