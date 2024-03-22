@@ -41,6 +41,11 @@ class SelectPreviewViewController: UIViewController {
               let rawVidUrl else { return }
         videoProcessing(url: rawVidUrl, compression: AVAssetExportPresetMediumQuality)
       }),
+      UIAction(title: "PresetHighestQuality", handler: { [weak self] (_) in
+        guard let self,
+              let rawVidUrl else { return }
+        videoProcessing(url: rawVidUrl, compression: AVAssetExportPresetHighestQuality)
+      }),
       UIAction(title: "Preset640x480", handler: { [weak self] (_) in
         guard let self,
               let rawVidUrl else { return }
