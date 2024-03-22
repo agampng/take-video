@@ -108,6 +108,7 @@ class PreviewVideoViewController: UIViewController {
       vc.infoData = ["Video size:": "\(Double(data.count / 1048576)) MB",
                      "Duration:": "\(player?.currentItem?.duration.seconds.rounded() ?? 0) seconds",
                      "Presentation Size:": "\(player!.currentItem!.presentationSize.height) x \(player!.currentItem!.presentationSize.width)",]
+      present(vc, animated: true)
       return
     }
     
